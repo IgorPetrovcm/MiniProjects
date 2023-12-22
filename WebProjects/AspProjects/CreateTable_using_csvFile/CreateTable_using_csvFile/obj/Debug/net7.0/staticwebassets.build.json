@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7D/o5YTS3OOPrvtlTIsQ3NkDry4iHmN7fpFQ8atd2l8=",
+  "Source": "CreateTable_using_csvFile",
+  "BasePath": "_content/CreateTable_using_csvFile",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

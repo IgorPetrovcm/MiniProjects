@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CreateTable_using_csvFile.props" />
+</Project>
