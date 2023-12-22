@@ -1,0 +1,14 @@
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReaderApp\CsvReaderApp\bin\Debug\net7.0\CsvReaderApp.exe
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReaderApp\CsvReaderApp\bin\Debug\net7.0\CsvReaderApp.deps.json
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReaderApp\CsvReaderApp\bin\Debug\net7.0\CsvReaderApp.runtimeconfig.json
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReaderApp\CsvReaderApp\bin\Debug\net7.0\CsvReaderApp.dll
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReaderApp\CsvReaderApp\bin\Debug\net7.0\CsvReaderApp.pdb
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReaderApp\CsvReaderApp\obj\Debug\net7.0\CsvReaderApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReaderApp\CsvReaderApp\obj\Debug\net7.0\CsvReaderApp.AssemblyInfoInputs.cache
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReaderApp\CsvReaderApp\obj\Debug\net7.0\CsvReaderApp.AssemblyInfo.cs
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReaderApp\CsvReaderApp\obj\Debug\net7.0\CsvReaderApp.csproj.CoreCompileInputs.cache
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReaderApp\CsvReaderApp\obj\Debug\net7.0\CsvReaderApp.dll
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReaderApp\CsvReaderApp\obj\Debug\net7.0\refint\CsvReaderApp.dll
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReaderApp\CsvReaderApp\obj\Debug\net7.0\CsvReaderApp.pdb
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReaderApp\CsvReaderApp\obj\Debug\net7.0\CsvReaderApp.genruntimeconfig.cache
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReaderApp\CsvReaderApp\obj\Debug\net7.0\ref\CsvReaderApp.dll
