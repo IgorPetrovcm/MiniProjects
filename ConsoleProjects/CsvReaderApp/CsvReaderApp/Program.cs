@@ -13,13 +13,13 @@ class Program
             string line;
             while ((line = reader.ReadLine()) != null)
             {
-                csv.AddRow(new CsvRow(line));
+                csv.AddRow(new CsvRow(line,','));
             }
         }
 
-        foreach (CsvRow row in csv.rows)
+        foreach (CsvRow row in csv.Rows)
         {
-            Console.WriteLine(string.Join(',',row.cells));
+            Console.WriteLine(string.Join(',',row.Cells));
         }
     }
 }
