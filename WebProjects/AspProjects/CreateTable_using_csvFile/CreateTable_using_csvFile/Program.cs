@@ -1,4 +1,7 @@
+using CreateTable_using_csvFile.Service;
+using CsvReader;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddTransient<ICreateTable,CreateTable>();
 builder.Services.AddControllersWithViews();
 var app = builder.Build();
 

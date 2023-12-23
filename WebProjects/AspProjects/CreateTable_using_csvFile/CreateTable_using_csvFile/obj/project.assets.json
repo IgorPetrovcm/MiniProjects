@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "CsvReader/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CsvReader.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CsvReader.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CsvReader/1.0.0": {
+      "type": "project",
+      "path": "../../../../ConsoleProjects/CsvReader/CsvReader/CsvReader.csproj",
+      "msbuildProject": "../../../../ConsoleProjects/CsvReader/CsvReader/CsvReader.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "CsvReader >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Honor\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\ConsoleProjects\\CsvReader\\CsvReader\\CsvReader.csproj": {
+              "projectPath": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\ConsoleProjects\\CsvReader\\CsvReader\\CsvReader.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

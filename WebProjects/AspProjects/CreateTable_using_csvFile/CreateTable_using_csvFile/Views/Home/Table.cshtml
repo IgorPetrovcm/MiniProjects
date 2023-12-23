@@ -1,0 +1,34 @@
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Your Table";
+}
+@using CsvReader
+
+@{
+    CsvGeneral csv = ViewBag.Message;
+}
+<table class="table table-striped">
+    @{
+        for (int i = 0; i < csv.data.header.Cells.Length;i++) 
+        {
+            <th>@csv.data.header.Cells[i]</th>
+        }
+    }
+    @{
+        for (int i = 1; i < csv.data.Rows.Count;i++)
+        {
+            <tr>
+                @{
+                    foreach (CsvRow row in csv.data.Rows)
+                    {
+                        
+                    }
+                }
+            </tr>
+        }
+    }
+    <tr>
+
+    </tr>
+    
+</table>
