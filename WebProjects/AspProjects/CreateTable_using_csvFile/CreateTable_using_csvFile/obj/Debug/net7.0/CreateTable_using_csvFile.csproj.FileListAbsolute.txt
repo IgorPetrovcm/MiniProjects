@@ -25,3 +25,7 @@ C:\Users\Honor\Desktop\study_C#\MiniProjects\WebProjects\AspProjects\CreateTable
 C:\Users\Honor\Desktop\study_C#\MiniProjects\WebProjects\AspProjects\CreateTable_using_csvFile\CreateTable_using_csvFile\obj\Debug\net7.0\CreateTable_using_csvFile.pdb
 C:\Users\Honor\Desktop\study_C#\MiniProjects\WebProjects\AspProjects\CreateTable_using_csvFile\CreateTable_using_csvFile\obj\Debug\net7.0\CreateTable_using_csvFile.genruntimeconfig.cache
 C:\Users\Honor\Desktop\study_C#\MiniProjects\WebProjects\AspProjects\CreateTable_using_csvFile\CreateTable_using_csvFile\obj\Debug\net7.0\ref\CreateTable_using_csvFile.dll
+C:\Users\Honor\Desktop\study_C#\MiniProjects\WebProjects\AspProjects\CreateTable_using_csvFile\CreateTable_using_csvFile\bin\Debug\net7.0\CsvReader.dll
+C:\Users\Honor\Desktop\study_C#\MiniProjects\WebProjects\AspProjects\CreateTable_using_csvFile\CreateTable_using_csvFile\bin\Debug\net7.0\CsvReader.pdb
+C:\Users\Honor\Desktop\study_C#\MiniProjects\WebProjects\AspProjects\CreateTable_using_csvFile\CreateTable_using_csvFile\obj\Debug\net7.0\CreateTable_using_csvFile.csproj.AssemblyReference.cache
+C:\Users\Honor\Desktop\study_C#\MiniProjects\WebProjects\AspProjects\CreateTable_using_csvFile\CreateTable_using_csvFile\obj\Debug\net7.0\CreateTable_using_csvFile.csproj.CopyComplete

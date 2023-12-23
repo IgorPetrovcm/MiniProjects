@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "CreateTable_using_csvFile/1.0.0": {
+        "dependencies": {
+          "CsvReader": "1.0.0"
+        },
         "runtime": {
           "CreateTable_using_csvFile.dll": {}
+        }
+      },
+      "CsvReader/1.0.0": {
+        "runtime": {
+          "CsvReader.dll": {}
         }
       }
     }
   },
   "libraries": {
     "CreateTable_using_csvFile/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsvReader/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

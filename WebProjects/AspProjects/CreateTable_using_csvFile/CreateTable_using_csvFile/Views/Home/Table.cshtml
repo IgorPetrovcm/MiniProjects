@@ -14,16 +14,15 @@
             <th>@csv.data.header.Cells[i]</th>
         }
     }
+
     @{
-        for (int i = 1; i < csv.data.Rows.Count;i++)
+        foreach (CsvRow row in csv.data.Rows)
         {
             <tr>
-                @{
-                    foreach (CsvRow row in csv.data.Rows)
-                    {
-                        
-                    }
-                }
+            @for (int j = 0; j < row.Cells.Length; j++)
+            {
+                <td>@row.Cells[j]</td>
+            }
             </tr>
         }
     }
