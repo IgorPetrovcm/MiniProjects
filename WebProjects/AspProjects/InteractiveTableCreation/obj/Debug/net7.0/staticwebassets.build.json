@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "vd/rke1FTdNxcvmcOB4tvSlmYjQgP+Jlfpjess5WSl0=",
+  "Source": "InteractiveTableCreation",
+  "BasePath": "_content/InteractiveTableCreation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "InteractiveTableCreation/wwwroot",
+      "Source": "InteractiveTableCreation",
+      "ContentRoot": "/home/admin/General/MiniProjects/WebProjects/AspProjects/InteractiveTableCreation/wwwroot/",
+      "BasePath": "_content/InteractiveTableCreation",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/admin/General/MiniProjects/WebProjects/AspProjects/InteractiveTableCreation/wwwroot/js/redirectToCreateRow.js",
+      "SourceId": "InteractiveTableCreation",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/admin/General/MiniProjects/WebProjects/AspProjects/InteractiveTableCreation/wwwroot/",
+      "BasePath": "_content/InteractiveTableCreation",
+      "RelativePath": "js/redirectToCreateRow.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/redirectToCreateRow.js"
+    }
+  ]
+}
