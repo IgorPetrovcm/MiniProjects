@@ -1,6 +1,6 @@
 ﻿namespace CsvReader;
 
-public class CsvRow
+public class CsvRow 
 {
     private string[] cells;
 

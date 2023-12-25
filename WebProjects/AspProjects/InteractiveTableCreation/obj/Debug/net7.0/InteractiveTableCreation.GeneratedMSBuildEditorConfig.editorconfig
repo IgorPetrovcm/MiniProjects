@@ -9,21 +9,21 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = InteractiveTableCreation
 build_property.RootNamespace = InteractiveTableCreation
-build_property.ProjectDir = /home/admin/General/MiniProjects/WebProjects/AspProjects/InteractiveTableCreation/
+build_property.ProjectDir = C:\Users\Honor\Desktop\study_C#\MiniProjects\WebProjects\AspProjects\InteractiveTableCreation\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/admin/General/MiniProjects/WebProjects/AspProjects/InteractiveTableCreation
+build_property.MSBuildProjectDirectory = C:\Users\Honor\Desktop\study_C#\MiniProjects\WebProjects\AspProjects\InteractiveTableCreation
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/admin/General/MiniProjects/WebProjects/AspProjects/InteractiveTableCreation/Views/Home/CreateRow.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DcmVhdGVSb3cuY3NodG1s
+[C:/Users/Honor/Desktop/study_C\#/MiniProjects/WebProjects/AspProjects/InteractiveTableCreation/Views/Home/CreateRow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVSb3cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/admin/General/MiniProjects/WebProjects/AspProjects/InteractiveTableCreation/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/Honor/Desktop/study_C\#/MiniProjects/WebProjects/AspProjects/InteractiveTableCreation/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/admin/General/MiniProjects/WebProjects/AspProjects/InteractiveTableCreation/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+[C:/Users/Honor/Desktop/study_C\#/MiniProjects/WebProjects/AspProjects/InteractiveTableCreation/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

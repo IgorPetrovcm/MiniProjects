@@ -1,0 +1,11 @@
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReader\CsvReader\bin\Debug\net7.0\CsvReader.deps.json
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReader\CsvReader\bin\Debug\net7.0\CsvReader.dll
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReader\CsvReader\bin\Debug\net7.0\CsvReader.pdb
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReader\CsvReader\obj\Debug\net7.0\CsvReader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReader\CsvReader\obj\Debug\net7.0\CsvReader.AssemblyInfoInputs.cache
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReader\CsvReader\obj\Debug\net7.0\CsvReader.AssemblyInfo.cs
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReader\CsvReader\obj\Debug\net7.0\CsvReader.csproj.CoreCompileInputs.cache
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReader\CsvReader\obj\Debug\net7.0\CsvReader.dll
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReader\CsvReader\obj\Debug\net7.0\refint\CsvReader.dll
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReader\CsvReader\obj\Debug\net7.0\CsvReader.pdb
+C:\Users\Honor\Desktop\study_C#\MiniProjects\ConsoleProjects\CsvReader\CsvReader\obj\Debug\net7.0\ref\CsvReader.dll

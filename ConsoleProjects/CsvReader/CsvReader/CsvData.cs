@@ -12,7 +12,7 @@ public class CsvData
         if (header == null)
         {
             header = row;
-            rows.Add(row);
+
             return;
         }
         rows.Add(row);
