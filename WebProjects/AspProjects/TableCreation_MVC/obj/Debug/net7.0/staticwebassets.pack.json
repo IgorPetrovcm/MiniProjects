@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/home/admin/General/MiniProjects/WebProjects/AspProjects/TableCreation_MVC/wwwroot/js/add_row.js",
+      "PackagePath": "staticwebassets/js/add_row.js"
+    },
+    {
+      "Id": "/home/admin/General/MiniProjects/WebProjects/AspProjects/TableCreation_MVC/wwwroot/js/your_table.js",
+      "PackagePath": "staticwebassets/js/your_table.js"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.TableCreation_MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.TableCreation_MVC.props",
+      "PackagePath": "build\\TableCreation_MVC.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.TableCreation_MVC.props",
+      "PackagePath": "buildMultiTargeting\\TableCreation_MVC.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.TableCreation_MVC.props",
+      "PackagePath": "buildTransitive\\TableCreation_MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

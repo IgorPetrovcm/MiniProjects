@@ -1,0 +1,14 @@
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Create Row";
+}
+
+<div id="form-group">
+    <label>Column count:</label><br/>
+    <div id="input_box">
+        <input type="number" class="form-outline" placeholder="Enter count" id="count_column"/> 
+        <small class="form-text text-muted">Your number input (> 0 and < 10) </small> <br/>
+    </div>
+    <button class="btn btn-secondary btn-sm" id="btn_addRow">Add</button>
+</div>
+<script src="~/js/add_row.js"></script>
