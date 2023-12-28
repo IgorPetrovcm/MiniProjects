@@ -6,6 +6,8 @@ public class CsvData
 
     public CsvRow header;
 
+    public int Count {get => rows.Count;}
+
     public void AddRow(CsvRow row)
     {
         if (row.Cells == null || row == null) return;

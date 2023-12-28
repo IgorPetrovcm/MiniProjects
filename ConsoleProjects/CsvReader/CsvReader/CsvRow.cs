@@ -3,7 +3,7 @@
 public class CsvRow 
 {
     private NullReferenceException nullExc = new NullReferenceException("Строка пуста при создании конструктора");
-    private string[] cells;
+    private string[] cells = new string[0];
 
     private int count;
 
@@ -32,6 +32,18 @@ public class CsvRow
         Array.Resize(ref cells, cells.Length + 1);
 
         cells[cells.Length - 1] = element;
+    }
+
+    public static CsvRow CreateRowUseArray(string[] arr)
+    {
+        CsvRow row = new CsvRow();
+
+        foreach (string str in arr)
+        {
+            row.AddElement(str);
+        }
+
+        return row;
     }
     public string[] Cells {get => cells;}
 }

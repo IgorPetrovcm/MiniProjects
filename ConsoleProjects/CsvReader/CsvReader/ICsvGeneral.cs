@@ -4,13 +4,13 @@ namespace CsvReader;
 
 public interface ICsvGeneral
 {
-    public void ArrayReadByData(string[] arr);
-    public void FileReadByData(Stream stream);
+    public CsvRow ArrayReadByData(string[] arr);
+    public CsvData FileReadByData(Stream stream);
     public void FileReadByData(StreamReader reader);
     
 }
 
-public class CsvGeneral : ICsvGeneral
+/*public class CsvGeneral : ICsvGeneral
 {
     public CsvData data = new CsvData();
     
@@ -44,5 +44,46 @@ public class CsvGeneral : ICsvGeneral
     public void FileReadByData(StreamReader reader)
     {
 
+    }
+}*/
+
+public class Csv : ICsvGeneral
+{
+    public CsvRow ArrayReadByData(string[] arr)
+    {
+        CsvRow row = new CsvRow();
+
+        foreach (string str in arr)
+        {
+            row.AddElement(str);
+        }
+
+        return row;
+    }
+
+    public CsvData FileReadByData(Stream stream)
+    {
+        CsvData data = new CsvData();
+
+        using (StreamReader reader = new StreamReader(stream))
+        {
+            string line = "";
+
+            while ((line = reader.ReadLine()) != null)
+            {
+                char c = new[] {',',';'}.FirstOrDefault(c => line.Contains(c));
+
+                if (c == '\0') throw new Exception("Csv file not correct");
+
+                data.AddRow(new CsvRow(line,c));
+            }
+        }   
+
+        return data;
+    }
+
+    public void FileReadByData(StreamReader reader)
+    {
+        throw new NotImplementedException();
     }
 }
