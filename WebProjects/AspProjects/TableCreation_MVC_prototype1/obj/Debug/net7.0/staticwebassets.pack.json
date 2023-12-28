@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "/home/admin/General/MiniProjects/WebProjects/AspProjects/TableCreation_MVC_prototype1/wwwroot/js/index.js",
-      "PackagePath": "staticwebassets/js/index.js"
+      "Id": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC_prototype1\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.TableCreation_MVC_prototype1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TableCreation_MVC_prototype1.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.TableCreation_MVC_prototype1.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.TableCreation_MVC_prototype1.props",
       "PackagePath": "build\\TableCreation_MVC_prototype1.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.TableCreation_MVC_prototype1.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TableCreation_MVC_prototype1.props",
       "PackagePath": "buildMultiTargeting\\TableCreation_MVC_prototype1.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.TableCreation_MVC_prototype1.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.TableCreation_MVC_prototype1.props",
       "PackagePath": "buildTransitive\\TableCreation_MVC_prototype1.props"
     }
   ],

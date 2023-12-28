@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MGflz5ELPc187W9uuJ1ccfz+0OnOXQeKCu8p0fnn2Fs=",
+  "Hash": "crZ2mOyswIbTnEb21NFu13ZRIPwpJvE1pJMFtpB0GCA=",
   "Source": "TableCreation_MVC_prototype1",
   "BasePath": "_content/TableCreation_MVC_prototype1",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "TableCreation_MVC_prototype1/wwwroot",
+      "Name": "TableCreation_MVC_prototype1\\wwwroot",
       "Source": "TableCreation_MVC_prototype1",
-      "ContentRoot": "/home/admin/General/MiniProjects/WebProjects/AspProjects/TableCreation_MVC_prototype1/wwwroot/",
+      "ContentRoot": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC_prototype1\\wwwroot\\",
       "BasePath": "_content/TableCreation_MVC_prototype1",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/admin/General/MiniProjects/WebProjects/AspProjects/TableCreation_MVC_prototype1/wwwroot/js/index.js",
+      "Identity": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC_prototype1\\wwwroot\\js\\index.js",
       "SourceId": "TableCreation_MVC_prototype1",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/admin/General/MiniProjects/WebProjects/AspProjects/TableCreation_MVC_prototype1/wwwroot/",
+      "ContentRoot": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC_prototype1\\wwwroot\\",
       "BasePath": "_content/TableCreation_MVC_prototype1",
       "RelativePath": "js/index.js",
       "AssetKind": "All",
@@ -31,7 +31,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/index.js"
+      "OriginalItemSpec": "wwwroot\\js\\index.js"
     }
   ]
 }

@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="CsvReader">
+      <HintPath>..\..\..\ConsoleProjects\CsvReader\CsvReader\bin\Debug\net7.0\CsvReader.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

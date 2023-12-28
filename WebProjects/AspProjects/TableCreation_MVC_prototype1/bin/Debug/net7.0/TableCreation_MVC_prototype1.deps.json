@@ -7,8 +7,19 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "TableCreation_MVC_prototype1/1.0.0": {
+        "dependencies": {
+          "CsvReader": "1.0.0.0"
+        },
         "runtime": {
           "TableCreation_MVC_prototype1.dll": {}
+        }
+      },
+      "CsvReader/1.0.0.0": {
+        "runtime": {
+          "CsvReader.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -16,6 +27,11 @@
   "libraries": {
     "TableCreation_MVC_prototype1/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsvReader/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

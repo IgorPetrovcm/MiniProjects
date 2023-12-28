@@ -1,3 +1,5 @@
+@using TableCreation.Services
+@using CsvReader
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,15 +15,43 @@
         </form>
 
         <script src="~/js/index.js"></script>
-
-        @{
-            if (ViewBag.Message != null)
-            {
-                foreach (string val in ViewBag.Message)
+@{
+    if (ViewBag.Message != null)
+    {
+        Table table = ViewBag.Message;
+        <table>
+            @{
+                <tr>
+                    @{
+                        for (int j = 0; j < table.data.header.Cells.Length; j++)
+                        {
+                            <th>
+                                @table.data.header.Cells[j]
+                            </th>
+                        }
+                    }
+                </tr>
+                for (int i = 0; i < table.Count; i++)
                 {
-                    <p>@val</p>;
+                    <tr>
+                        @{
+                            foreach (CsvRow row in table.data.Rows)
+                            {
+                                {
+                                    for (int k = 0; k < row.Cells.Length; k++)
+                                    {
+                                        <td>
+                                            @row.Cells[k]
+                                        </td>
+                                    }
+                                }
+                            }
+                        }
+                    </tr>
                 }
             }
-        }
+        </table>
+    }
+}
     </body>
 </html>
