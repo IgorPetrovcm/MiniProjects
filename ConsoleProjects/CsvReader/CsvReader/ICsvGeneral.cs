@@ -1,8 +1,10 @@
+using System.Data;
+
 namespace CsvReader;
 
 public interface ICsvGeneral
 {
-    
+    public void ArrayReadByData(string[] arr);
     public void FileReadByData(Stream stream);
     public void FileReadByData(StreamReader reader);
     
@@ -11,11 +13,24 @@ public interface ICsvGeneral
 public class CsvGeneral : ICsvGeneral
 {
     public CsvData data = new CsvData();
+    
+    public void ArrayReadByData(string[] arr)
+    {
+        CsvRow row = new CsvRow();
+
+        foreach (string str in arr)
+        {
+            row.AddElement(str);
+        }
+
+        data.AddRow(row);
+    }
     public void FileReadByData(Stream stream)
     {
         using (StreamReader reader = new StreamReader(stream))
         {
             string line = "";
+
             while ((line = reader.ReadLine()) != null)
             {
                 char c = new[] {',',';'}.FirstOrDefault(c => line.Contains(c));
