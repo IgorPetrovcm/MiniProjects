@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Table Creation</title>
+    </head>
+    <body>
+        <input type="number" id="count"/>
+        <button id="btn">Click</button>
+
+        <form method="post" id="form1">
+
+        </form>
+
+        <script src="~/js/index.js"></script>
+
+        @{
+            if (ViewBag.Message != null)
+            {
+                foreach (string val in ViewBag.Message)
+                {
+                    <p>@val</p>;
+                }
+            }
+        }
+    </body>
+</html>

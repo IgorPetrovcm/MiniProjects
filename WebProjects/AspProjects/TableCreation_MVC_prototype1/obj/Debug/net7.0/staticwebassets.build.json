@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "MGflz5ELPc187W9uuJ1ccfz+0OnOXQeKCu8p0fnn2Fs=",
+  "Source": "TableCreation_MVC_prototype1",
+  "BasePath": "_content/TableCreation_MVC_prototype1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TableCreation_MVC_prototype1/wwwroot",
+      "Source": "TableCreation_MVC_prototype1",
+      "ContentRoot": "/home/admin/General/MiniProjects/WebProjects/AspProjects/TableCreation_MVC_prototype1/wwwroot/",
+      "BasePath": "_content/TableCreation_MVC_prototype1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/admin/General/MiniProjects/WebProjects/AspProjects/TableCreation_MVC_prototype1/wwwroot/js/index.js",
+      "SourceId": "TableCreation_MVC_prototype1",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/admin/General/MiniProjects/WebProjects/AspProjects/TableCreation_MVC_prototype1/wwwroot/",
+      "BasePath": "_content/TableCreation_MVC_prototype1",
+      "RelativePath": "js/index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/index.js"
+    }
+  ]
+}
