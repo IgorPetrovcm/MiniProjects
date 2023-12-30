@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TableCreation_MVC", "TableCreation_MVC.csproj", "{60550231-B190-4929-AA18-66724CD097C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvReader", "..\..\..\ConsoleProjects\CsvReader\CsvReader\CsvReader.csproj", "{6EFD52DA-A697-4734-BEB1-E38F95729EA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{60550231-B190-4929-AA18-66724CD097C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60550231-B190-4929-AA18-66724CD097C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60550231-B190-4929-AA18-66724CD097C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EFD52DA-A697-4734-BEB1-E38F95729EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EFD52DA-A697-4734-BEB1-E38F95729EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EFD52DA-A697-4734-BEB1-E38F95729EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EFD52DA-A697-4734-BEB1-E38F95729EA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

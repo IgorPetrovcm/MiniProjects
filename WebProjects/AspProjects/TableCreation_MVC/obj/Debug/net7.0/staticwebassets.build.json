@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VPHFzUDU8ons2kCsBmaOmanB3i75m/qEEsYWDXHmvG8=",
+  "Hash": "Un+bNF1MR+mlvq5TEY6xDqu8OopBavRJR6fq4wUdyuk=",
   "Source": "TableCreation_MVC",
   "BasePath": "_content/TableCreation_MVC",
   "Mode": "Default",
@@ -34,12 +34,12 @@
       "OriginalItemSpec": "wwwroot\\js\\addRow.js"
     },
     {
-      "Identity": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC\\wwwroot\\js\\your_table.js",
+      "Identity": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC\\wwwroot\\js\\yourTable.js",
       "SourceId": "TableCreation_MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC\\wwwroot\\",
       "BasePath": "_content/TableCreation_MVC",
-      "RelativePath": "js/your_table.js",
+      "RelativePath": "js/yourTable.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -48,7 +48,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\your_table.js"
+      "OriginalItemSpec": "wwwroot\\js\\yourTable.js"
     }
   ]
 }

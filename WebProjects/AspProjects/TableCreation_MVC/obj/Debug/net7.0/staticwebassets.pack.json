@@ -5,8 +5,8 @@
       "PackagePath": "staticwebassets\\js\\addRow.js"
     },
     {
-      "Id": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC\\wwwroot\\js\\your_table.js",
-      "PackagePath": "staticwebassets\\js\\your_table.js"
+      "Id": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC\\wwwroot\\js\\yourTable.js",
+      "PackagePath": "staticwebassets\\js\\yourTable.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TableCreation_MVC.Microsoft.AspNetCore.StaticWebAssets.props",

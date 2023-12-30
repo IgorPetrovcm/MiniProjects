@@ -57,10 +57,10 @@ function addColumns()
                 this.placeholder = 'Name cannot be empty';
                 return;
             }
-            if (this.value.length > 20 || this.value.length < 1)
+            if (this.value.length > 30 || this.value.length < 1)
             {
                 this.value = null;
-                this.placeholder = 'Name length < 21';
+                this.placeholder = 'Name length < 31';
                 return;
             }
 

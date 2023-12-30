@@ -1,6 +1,18 @@
+@using TableCreation_MVC;
 @{
     Layout = "/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Your Table";
+
+    Table table = ViewBag.Message; 
+    string html = "";
 }
 <buttons id="btn1" class="btn btn-primary">Create Row</buttons>
-<script src="~/js/your_table.js"></script>
+
+@{
+    if (table != null) 
+    {
+        html = table.GetInnerHtml();        
+    }
+}
+@Html.Raw(html)
+<script src="~/js/yourTable.js"></script>
