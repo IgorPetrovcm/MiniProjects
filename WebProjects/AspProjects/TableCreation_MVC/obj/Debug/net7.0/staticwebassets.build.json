@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mU2vWPKcTg/YbEGxCekJ9uQaWMFqIJAbHH49D2bGubU=",
+  "Hash": "VPHFzUDU8ons2kCsBmaOmanB3i75m/qEEsYWDXHmvG8=",
   "Source": "TableCreation_MVC",
   "BasePath": "_content/TableCreation_MVC",
   "Mode": "Default",
@@ -8,21 +8,21 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "TableCreation_MVC/wwwroot",
+      "Name": "TableCreation_MVC\\wwwroot",
       "Source": "TableCreation_MVC",
-      "ContentRoot": "/home/admin/General/MiniProjects/WebProjects/AspProjects/TableCreation_MVC/wwwroot/",
+      "ContentRoot": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC\\wwwroot\\",
       "BasePath": "_content/TableCreation_MVC",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/admin/General/MiniProjects/WebProjects/AspProjects/TableCreation_MVC/wwwroot/js/add_row.js",
+      "Identity": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC\\wwwroot\\js\\addRow.js",
       "SourceId": "TableCreation_MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/admin/General/MiniProjects/WebProjects/AspProjects/TableCreation_MVC/wwwroot/",
+      "ContentRoot": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC\\wwwroot\\",
       "BasePath": "_content/TableCreation_MVC",
-      "RelativePath": "js/add_row.js",
+      "RelativePath": "js/addRow.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/add_row.js"
+      "OriginalItemSpec": "wwwroot\\js\\addRow.js"
     },
     {
-      "Identity": "/home/admin/General/MiniProjects/WebProjects/AspProjects/TableCreation_MVC/wwwroot/js/your_table.js",
+      "Identity": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC\\wwwroot\\js\\your_table.js",
       "SourceId": "TableCreation_MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/admin/General/MiniProjects/WebProjects/AspProjects/TableCreation_MVC/wwwroot/",
+      "ContentRoot": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC\\wwwroot\\",
       "BasePath": "_content/TableCreation_MVC",
       "RelativePath": "js/your_table.js",
       "AssetKind": "All",
@@ -48,7 +48,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/your_table.js"
+      "OriginalItemSpec": "wwwroot\\js\\your_table.js"
     }
   ]
 }
