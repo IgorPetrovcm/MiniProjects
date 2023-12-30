@@ -15,6 +15,8 @@ public class CsvData
         {
             header = row;
 
+            rows.Add(row);
+            
             return;
         }
         rows.Add(row);
