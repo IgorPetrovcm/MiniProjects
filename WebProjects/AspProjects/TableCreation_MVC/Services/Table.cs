@@ -42,6 +42,8 @@ public class Table : ITable
 
         foreach (CsvRow row in data.Rows)
         {
+            if (row == data.header) continue;
+
             html.Append("<tr>");
 
             for (int i = 0; i < row.Cells.Length; i++)
