@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\js\\addRow.js"
     },
     {
+      "Id": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC\\wwwroot\\js\\removeTable.js",
+      "PackagePath": "staticwebassets\\js\\removeTable.js"
+    },
+    {
       "Id": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC\\wwwroot\\js\\yourTable.js",
       "PackagePath": "staticwebassets\\js\\yourTable.js"
     },

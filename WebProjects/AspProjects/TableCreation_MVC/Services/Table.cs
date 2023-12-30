@@ -6,6 +6,7 @@ using CsvReader;
 
 public interface ITable
 {
+    public CsvData Data();
     public void AddRow(string[] arr);
 
     public string GetInnerHtml();
@@ -15,7 +16,10 @@ public class Table : ITable
 {
     public CsvData data = new CsvData();
 
-    public string[] HeaderCells {get => data.header.Cells;}
+    public CsvData Data() => data;
+    public int DataCount {get => data.Count;}
+    public string[] HeaderCells {get => data.header.Cells; }
+    public CsvRow Header {get => data.header;}
 
     public void AddRow(string[] arr)
     {
@@ -27,7 +31,7 @@ public class Table : ITable
         StringBuilder html = new StringBuilder();
 
         html.Append("<br/>");
-        html.Append("<table>");
+        html.Append(@"<table id=""tableGeneral"">");
         html.Append("<tr>");
 
         for (int i = 0; i < HeaderCells.Length; i++)

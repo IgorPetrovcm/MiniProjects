@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Un+bNF1MR+mlvq5TEY6xDqu8OopBavRJR6fq4wUdyuk=",
+  "Hash": "Bt/t91CtQEo1OSemneBbyAOmsNq4Qotu6HdXIat34kg=",
   "Source": "TableCreation_MVC",
   "BasePath": "_content/TableCreation_MVC",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\addRow.js"
+    },
+    {
+      "Identity": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC\\wwwroot\\js\\removeTable.js",
+      "SourceId": "TableCreation_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC\\wwwroot\\",
+      "BasePath": "_content/TableCreation_MVC",
+      "RelativePath": "js/removeTable.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\removeTable.js"
     },
     {
       "Identity": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\WebProjects\\AspProjects\\TableCreation_MVC\\wwwroot\\js\\yourTable.js",

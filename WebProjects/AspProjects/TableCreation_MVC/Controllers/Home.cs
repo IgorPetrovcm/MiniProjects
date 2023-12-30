@@ -10,7 +10,12 @@ public class Home : Controller
     {
         this.table = table;
     }
-    public IActionResult YourTable() => View();
+    public IActionResult YourTable()
+    {
+        ViewBag.Message = table;
+
+        return View();
+    }
 
     public IActionResult CreateRow() => View();
 
@@ -20,9 +25,8 @@ public class Home : Controller
         if (ValidationColumns.IsValid(values))
         {
             table.AddRow(values);
-            ViewBag.Message = table;
 
-            return View("~/Views/Home/YourTable.cshtml"); 
+            return Redirect("YourTable"); 
         }
         else {
             ViewBag.Message = @"<script> alert('Error input data') </script>";

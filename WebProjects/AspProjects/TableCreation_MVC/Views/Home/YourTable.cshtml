@@ -3,16 +3,23 @@
     Layout = "/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Your Table";
 
-    Table table = ViewBag.Message; 
     string html = "";
 }
+<script src="~/js/removeTable.js"></script>
+
 <buttons id="btn1" class="btn btn-primary">Create Row</buttons>
 
 @{
-    if (table != null) 
-    {
-        html = table.GetInnerHtml();        
+    if (ViewBag.Message.DataCount > 0) {
+        if (ViewBag.Message != null) 
+        {
+            html = ViewBag.Message.GetInnerHtml(); 
+            ViewBag.Message = null;       
+        }
     }
 }
 @Html.Raw(html)
+@{
+    html = "";
+}
 <script src="~/js/yourTable.js"></script>
