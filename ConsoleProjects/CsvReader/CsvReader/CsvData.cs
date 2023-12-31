@@ -7,6 +7,7 @@ public class CsvData
     public CsvRow header;
 
     public int Count {get => rows.Count;}
+    public List<CsvRow> Rows {get => rows;}
 
     public void AddRow(CsvRow row)
     {
@@ -24,5 +25,10 @@ public class CsvData
         return;
     }
 
-    public List<CsvRow> Rows {get => rows;}
+    public void DataRemove()
+    {
+        header = null;
+
+        rows?.Clear();
+    }
 }

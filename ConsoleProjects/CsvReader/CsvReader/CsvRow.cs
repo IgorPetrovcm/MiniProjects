@@ -8,6 +8,7 @@ public class CsvRow
     private int count;
 
     public int Count {get => cells.Count();}
+    public string[] Cells {get => cells;}
     
     public CsvRow(string line)
     {
@@ -34,6 +35,11 @@ public class CsvRow
         cells[cells.Length - 1] = element;
     }
 
+    public void RowRemove()
+    {
+        cells = new string[0];
+    }
+
     public static CsvRow CreateRowUseArray(string[] arr)
     {
         CsvRow row = new CsvRow();
@@ -45,5 +51,6 @@ public class CsvRow
 
         return row;
     }
-    public string[] Cells {get => cells;}
+
+
 }

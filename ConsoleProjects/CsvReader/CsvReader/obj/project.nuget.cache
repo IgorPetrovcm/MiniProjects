@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mMdcjMNwyHUcQio/vsjvpUpt2s7PImsX+owvKsz2GGcsVSpO78MJR14Fk+Kvie2p3CPisNVN5LpNdWVDjkzT6A==",
+  "dgSpecHash": "/83nDD8UhTSQIAZgFtu6NTR1CfMtT8exy++KQqnFJOElQZpiXjBz8FI+weatLuw41nq8SQMmO7ZEarQ0/vuY5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Honor\\Desktop\\study_C#\\MiniProjects\\ConsoleProjects\\CsvReader\\CsvReader\\CsvReader.csproj",
+  "projectFilePath": "/home/admin/General/MiniProjects/ConsoleProjects/CsvReader/CsvReader/CsvReader.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
